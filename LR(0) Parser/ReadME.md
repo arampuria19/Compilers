@@ -18,7 +18,7 @@ This is a Python implementation of an LR(0) grammar automaton, which can be used
 There are no external dependencies for this code. You can simply clone this repository to your local machine:
 
 ```shell
-git clone https://github.com/your-username/lr0-grammar-automaton.git
+git clone https://github.com/arampuria19/Compilers/lr0-grammar-automaton.git
 ```
 
 ### Usage <a name="usage"></a>
@@ -108,7 +108,7 @@ If you'd like to contribute to this project, please follow these steps:
 
 2. Clone the forked repository to your local machine.
 
-3. Create a new branch for your changes: `git checkout -b feature/your-feature-name`
+3. Create a new branch for your changes: `git checkout -b feature/arampuria19`
 
 4. Make your changes and commit them: `git commit -m 'Add new feature'`
 
