@@ -6,20 +6,30 @@ The front-end of the compiler or the analysis phase of the compiler reads the so
 This program when given a Context Free Grammar (G) and a program (s) in the language of grammar as input, tells whether the program is valid or not.
 
 We have used YACC and Lex to implement the same. YACC or Yet Another Compiler Compiler provides a tool to produce a parser for a given grammar. It is used to produce the source code of the syntactic analyzer of the language produced by LALR(1) grammar.
- 
+
+<h2> Prerequisites </h2>
+
+Before you can compile and run this parser, make sure you have the following tools installed on your system:
+
+- [Flex (Lex)](https://github.com/westes/flex)
+- [Bison (Yacc)](https://www.gnu.org/software/bison/)
+
 <h2> Usage Instructions </h2>
 
-1. Compile the `parse.y` program using `yacc parse.y -d'. The result of the compilation are these two files - `parse.tab.h` and `parse.tab.c`.
-2. Compile the `tokenizer.l` program using `lex tokenizer.l`.
-3. Compile `parse.tab.c` using `g++ parse.tab.c -o parser`
-4. Execute the parser using `./parser.exe`
+1. Compiler the runner file: `parse.y`.
+2. Run the parser:: `./parser.sh`.
+
+This script will execute the following commands:
+1. Compile parse.y using Yacc (Bison).
+2. Compile tokenizer.l using Lex (Flex).
+3. Compile parse.tab.c using g++ to create the parser executable.
 
 Note: 
 1. If you want to change the input to parser, modify `input1.txt`.
 2. `parse.y` has logic for grammar.
 3. `tokenizer.l` has logic for generating tokens.
 
-<h2 id="usage"> ✨ Sample Input </h2>
+<h2 id="usage"> Sample Input </h2>
 
 1. (Accepted)
 
