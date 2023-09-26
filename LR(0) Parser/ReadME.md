@@ -1,5 +1,3 @@
-Documenting and creating a README file for code is essential to help other developers understand how to use your code, what it does, and how to contribute or modify it. Below is a suggested structure for documenting your LR(0) grammar automaton code and creating a README file:
-
 ## LR(0) Grammar Automaton
 
 This is a Python implementation of an LR(0) grammar automaton, which can be used for parsing context-free grammars. The LR(0) parser can generate a parsing table for a given grammar and can be used to parse input strings based on that grammar.
