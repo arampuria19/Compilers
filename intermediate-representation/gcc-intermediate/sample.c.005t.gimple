@@ -1,0 +1,22 @@
+main ()
+gimple_bind <
+  int D.2320;
+
+  gimple_bind <
+    int x;
+
+    gimple_assign <integer_cst, x, 1, NULL, NULL>
+    gimple_goto <<D.2317>>
+    gimple_label <<D.2316>>
+    gimple_assign <plus_expr, x, x, 1, NULL>
+    gimple_label <<D.2317>>
+    gimple_cond <le_expr, x, 9, <D.2316>, <D.2318>>
+    gimple_label <<D.2318>>
+    gimple_call <printf, NULL, "%d \n", x>
+    gimple_call <printf, NULL, "Analysing by Akshat\n">
+    gimple_assign <integer_cst, D.2320, 0, NULL, NULL>
+    gimple_return <D.2320>
+  >
+  gimple_assign <integer_cst, D.2320, 0, NULL, NULL>
+  gimple_return <D.2320>
+>
