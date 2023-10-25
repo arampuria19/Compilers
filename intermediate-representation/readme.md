@@ -17,9 +17,6 @@ Note: Every folder comprises of seperate .y and .l files for respective tasks.
 
 Note: We will consider grammar for a simple calculator supporting operations like addition, subtraction, multiplication and division for the above mentioned Intermediate Code Generators.
 
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
-
 <h2 id="usage"> Abstract Syntax Tree </h2>
 
 ``Language Support:``  The attribute grammar to generate the AST, using the semantic actions, is given as -  
